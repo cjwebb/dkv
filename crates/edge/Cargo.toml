@@ -1,0 +1,10 @@
+[package]
+name = "edge"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hashbrown = { workspace = true }
+tokio = { workspace = true }
+core_affinity = { workspace = true }
+rtrb = { workspace = true }

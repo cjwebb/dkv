@@ -1,0 +1,13 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+core = { path = "../core" }
+protocol = { path = "../protocol" }
+
+hashbrown = { workspace = true }
+tokio = { workspace = true }
+core_affinity = { workspace = true }
+rtrb = { workspace = true }
