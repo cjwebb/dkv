@@ -1,0 +1,12 @@
+[package]
+name = "integration-tests"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+client = { path = "../client" }
+protocol = { path = "../protocol" }
+server = { path = "../server" }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
